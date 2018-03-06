@@ -11,6 +11,7 @@ output:
 ```r
 require(dplyr)
 require(lattice)
+require(rmarkdown)
 stepData <- read.csv(".\\activity.csv", header = TRUE, colClasses = c(NA, "Date", NA))
 ```
 
